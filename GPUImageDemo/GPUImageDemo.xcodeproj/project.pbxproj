@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		0F3742921D98F41200682E15 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F3742911D98F41200682E15 /* main.m */; };
 		0F3742951D98F41200682E15 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F3742941D98F41200682E15 /* AppDelegate.m */; };
-		0F3742981D98F41200682E15 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F3742971D98F41200682E15 /* ViewController.m */; };
-		0F37429B1D98F41200682E15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F3742991D98F41200682E15 /* Main.storyboard */; };
 		0F37429D1D98F41200682E15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F37429C1D98F41200682E15 /* Assets.xcassets */; };
 		0F3742A01D98F41200682E15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F37429E1D98F41200682E15 /* LaunchScreen.storyboard */; };
 		0F3742AB1D98F41200682E15 /* GPUImageDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F3742AA1D98F41200682E15 /* GPUImageDemoUITests.m */; };
 		0F3742B81D9903F600682E15 /* GPUImageBeautifyFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F3742B71D9903F600682E15 /* GPUImageBeautifyFilter.m */; };
+		0FEFA61B1D9A062B0037B415 /* BeautifyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FEFA61A1D9A062B0037B415 /* BeautifyViewController.m */; };
+		0FEFA6211D9A07190037B415 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FEFA61F1D9A07190037B415 /* MainViewController.m */; };
+		0FEFA6221D9A07190037B415 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FEFA6201D9A07190037B415 /* MainViewController.xib */; };
+		0FEFA6261D9A0A370037B415 /* OwnViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FEFA6241D9A0A370037B415 /* OwnViewController.m */; };
+		0FEFA6271D9A0A370037B415 /* OwnViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FEFA6251D9A0A370037B415 /* OwnViewController.xib */; };
 		925B27DB0AC57F3B68743712 /* libPods-GPUImageDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6235059CECE978FA1A074649 /* libPods-GPUImageDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -33,9 +36,6 @@
 		0F3742911D98F41200682E15 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0F3742931D98F41200682E15 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0F3742941D98F41200682E15 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0F3742961D98F41200682E15 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0F3742971D98F41200682E15 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		0F37429A1D98F41200682E15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0F37429C1D98F41200682E15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0F37429F1D98F41200682E15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0F3742A11D98F41200682E15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -44,6 +44,14 @@
 		0F3742AC1D98F41200682E15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0F3742B61D9903F600682E15 /* GPUImageBeautifyFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUImageBeautifyFilter.h; sourceTree = "<group>"; };
 		0F3742B71D9903F600682E15 /* GPUImageBeautifyFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUImageBeautifyFilter.m; sourceTree = "<group>"; };
+		0FEFA6191D9A062B0037B415 /* BeautifyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeautifyViewController.h; sourceTree = "<group>"; };
+		0FEFA61A1D9A062B0037B415 /* BeautifyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeautifyViewController.m; sourceTree = "<group>"; };
+		0FEFA61E1D9A07190037B415 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		0FEFA61F1D9A07190037B415 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		0FEFA6201D9A07190037B415 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		0FEFA6231D9A0A370037B415 /* OwnViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OwnViewController.h; sourceTree = "<group>"; };
+		0FEFA6241D9A0A370037B415 /* OwnViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OwnViewController.m; sourceTree = "<group>"; };
+		0FEFA6251D9A0A370037B415 /* OwnViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OwnViewController.xib; sourceTree = "<group>"; };
 		2941EA41421CB807DE5F572F /* Pods-GPUImageDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPUImageDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-GPUImageDemo/Pods-GPUImageDemo.release.xcconfig"; sourceTree = "<group>"; };
 		6235059CECE978FA1A074649 /* libPods-GPUImageDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GPUImageDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0E1B2DA15DEA676983821A7 /* Pods-GPUImageDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPUImageDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GPUImageDemo/Pods-GPUImageDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -94,9 +102,14 @@
 				0F3742B51D9903F600682E15 /* GPUImageBeautifyFilter */,
 				0F3742931D98F41200682E15 /* AppDelegate.h */,
 				0F3742941D98F41200682E15 /* AppDelegate.m */,
-				0F3742961D98F41200682E15 /* ViewController.h */,
-				0F3742971D98F41200682E15 /* ViewController.m */,
-				0F3742991D98F41200682E15 /* Main.storyboard */,
+				0FEFA61E1D9A07190037B415 /* MainViewController.h */,
+				0FEFA61F1D9A07190037B415 /* MainViewController.m */,
+				0FEFA6201D9A07190037B415 /* MainViewController.xib */,
+				0FEFA6191D9A062B0037B415 /* BeautifyViewController.h */,
+				0FEFA61A1D9A062B0037B415 /* BeautifyViewController.m */,
+				0FEFA6231D9A0A370037B415 /* OwnViewController.h */,
+				0FEFA6241D9A0A370037B415 /* OwnViewController.m */,
+				0FEFA6251D9A0A370037B415 /* OwnViewController.xib */,
 				0F37429C1D98F41200682E15 /* Assets.xcassets */,
 				0F37429E1D98F41200682E15 /* LaunchScreen.storyboard */,
 				0F3742A11D98F41200682E15 /* Info.plist */,
@@ -232,8 +245,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F3742A01D98F41200682E15 /* LaunchScreen.storyboard in Resources */,
+				0FEFA6271D9A0A370037B415 /* OwnViewController.xib in Resources */,
+				0FEFA6221D9A07190037B415 /* MainViewController.xib in Resources */,
 				0F37429D1D98F41200682E15 /* Assets.xcassets in Resources */,
-				0F37429B1D98F41200682E15 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,9 +313,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F3742981D98F41200682E15 /* ViewController.m in Sources */,
+				0FEFA61B1D9A062B0037B415 /* BeautifyViewController.m in Sources */,
 				0F3742B81D9903F600682E15 /* GPUImageBeautifyFilter.m in Sources */,
 				0F3742951D98F41200682E15 /* AppDelegate.m in Sources */,
+				0FEFA6261D9A0A370037B415 /* OwnViewController.m in Sources */,
+				0FEFA6211D9A07190037B415 /* MainViewController.m in Sources */,
 				0F3742921D98F41200682E15 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -325,14 +341,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0F3742991D98F41200682E15 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0F37429A1D98F41200682E15 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0F37429E1D98F41200682E15 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

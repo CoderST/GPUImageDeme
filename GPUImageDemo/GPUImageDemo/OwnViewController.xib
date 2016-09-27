@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1912" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="OwnViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="0.29999999999999999" translatesAutoresizingMaskIntoConstraints="NO" id="Crg-xb-z3o" userLabel="美白">
+                    <rect key="frame" x="8" y="380" width="304" height="31"/>
+                    <connections>
+                        <action selector="brightnessSld:" destination="-1" eventType="valueChanged" id="yK5-Ia-7rD"/>
+                    </connections>
+                </slider>
+                <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="5" minValue="5" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="BQt-S6-zBN" userLabel="磨皮">
+                    <rect key="frame" x="8" y="430" width="304" height="31"/>
+                    <connections>
+                        <action selector="BilateralSld:" destination="-1" eventType="valueChanged" id="MIc-l5-qwI"/>
+                    </connections>
+                </slider>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Crg-xb-z3o" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="3gj-Yn-OeD"/>
+                <constraint firstAttribute="trailing" secondItem="Crg-xb-z3o" secondAttribute="trailing" constant="10" id="4FT-92-UdK"/>
+                <constraint firstItem="BQt-S6-zBN" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="Aov-P7-mnc"/>
+                <constraint firstAttribute="bottom" secondItem="BQt-S6-zBN" secondAttribute="bottom" constant="20" id="ENZ-CW-PfU"/>
+                <constraint firstAttribute="bottom" secondItem="Crg-xb-z3o" secondAttribute="bottom" constant="70" id="bVN-de-s3b"/>
+                <constraint firstAttribute="trailing" secondItem="BQt-S6-zBN" secondAttribute="trailing" constant="10" id="pMv-hx-KKV"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+</document>

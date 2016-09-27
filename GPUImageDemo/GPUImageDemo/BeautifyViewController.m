@@ -1,15 +1,15 @@
 //
-//  ViewController.m
+//  BeautifyViewController.m
 //  GPUImageDemo
 //
-//  Created by xiudou on 16/9/26.
+//  Created by xiudou on 16/9/27.
 //  Copyright © 2016年 xiudo. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "BeautifyViewController.h"
 #import <GPUImage.h>
 #import "GPUImageBeautifyFilter.h"
-@interface ViewController ()
+@interface BeautifyViewController ()
 /** 测试按钮 */
 @property (nonatomic,strong) UIButton *beautiflButton;
 /** 数据源 */
@@ -18,7 +18,7 @@
 @property (nonatomic,strong) GPUImageView *imageView;
 @end
 
-@implementation ViewController
+@implementation BeautifyViewController
 
 - (UIButton *)beautiflButton{
     if (!_beautiflButton) {
@@ -34,9 +34,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor whiteColor];
     // 添加测试按钮
     [self.view addSubview:self.beautiflButton];
-    self.beautiflButton.frame = CGRectMake(self.view.frame.size.width - 60, 40, 40, 40);
+    self.beautiflButton.frame = CGRectMake(self.view.frame.size.width - 60, 80, 40, 40);
     
     // 创建数据源
     GPUImageVideoCamera *videoCamera = [[GPUImageVideoCamera alloc] initWithSessionPreset:AVCaptureSessionPresetHigh cameraPosition:AVCaptureDevicePositionFront];
@@ -78,9 +79,5 @@
     
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 @end
